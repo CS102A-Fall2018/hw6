@@ -3,8 +3,6 @@
 Write the SOS game that is playable by 2 players. More information can be found on: <a href="https://en.wikipedia.org/wiki/SOS_(game)">https://en.wikipedia.org/wiki/SOS_(game)</a>
 
 Include the following requirements:
-* The game should be split up into multiple files.
-* The game should be compiled using a makefile.
 * The game should have a game board of 5x5.
 * The number of SOS points should be counted per player.
 * The game ends when the entire board is filled and the winner is declared.
@@ -14,7 +12,8 @@ Include the following requirements:
 
 This question is 100 points (50 points for quality & 50 points for output).
 
-Bonus (+20 for each): 
+Bonus (+10 for each): 
+* The game should be split up into multiple files. The game should be compiled using a makefile.  
 * Extend the game so that the user can specify the size of board that they want to play on (nxm).
 * Have a computer so that can play relatively smart. (i.e. if there is a chance to get an SOS, it will go for it!).
 
